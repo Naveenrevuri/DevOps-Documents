@@ -17,12 +17,15 @@ sudo yum install docker -y
 sudo service docker start
 sudo usermod -aG docker ec2-user
 exit
+```
 # Step-3 : Make SSH connection again and Verify docker installation
 ```bash
 docker -v
+```
 # Step-4 : Run SonarQube using docker image
 ```bash
 docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube:lts-community
+```
 # Step-5: Enable 9000 port number in Security Group Inbound Rules & Access Sonar Server
 ```bash
  - URL : http://public-ip:9000/
