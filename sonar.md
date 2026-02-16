@@ -29,6 +29,38 @@ docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube:lts-community
 # Step-5: Enable 9000 port number in Security Group Inbound Rules & Access Sonar Server
 ```bash
  - URL : http://public-ip:9000/
-
+```
+# step-6:Sonar-Dashboard
+1)manual
+2)plan-api
+3)generate token
+# step-7:Git Install 
+```bash
+sudo yum install git -y
+```
+Git-version
+```bash
+git --version
+```
+# step-8:Git Clone
+```bash
+git clone https://github.com/Naveenrevuri/plans-api.git
+cd plans-api
+```
+# step-9:Maven Install
+```bash
+sudo yum install maven -y
+```
+Maven version
+```bash
+mvn -v
+```
+#step-10:Sonar Run With Token
+```bash
+mvn clean verify sonar:sonar \
+-Dsonar.projectKey=Plans-Api \
+-Dsonar.host.url=http://13.126.193.119:9000 \
+-Dsonar.login=YOUR_TOKEN
+```
 
 
