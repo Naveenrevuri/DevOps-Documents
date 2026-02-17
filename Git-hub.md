@@ -1,12 +1,12 @@
 # Step 1: Create Git-hub account
  GitHub ki login avvu (www.github.com)
  1)Create New Repository
-  -> Repository name: eg. my-demo-project
- -> Description: optional
- -> Public or Private select cheyyi
- -> Initialize with README (optional, local nunchi push cheyali ante clear untundi)
-Cretae Repository Get URL, e.g.
-https://github.com/<username>/my-demo-project.git
+  . Repository name: eg. my-demo-project
+  . Description: optional
+  . Public or Private select cheyyi
+  . Initialize with README (optional, local nunchi push cheyali ante clear untundi)
+ 'Cretae Repository Get URL, e.g.
+ .https://github.com/<username>/my-demo-project.git
 
 # Step 2: Ready Local Code
   ->Locatio of File Eg: cd my-demo-project
