@@ -47,6 +47,11 @@ git --version
 git clone https://github.com/Naveenrevuri/plans-Api.git
 cd plans-Api
 ```
+# Remove gitUrl add New Url
+```bash
+git clone https://github.com/Naveenrevuri/plans-Api.git plans-api-new
+cd plans-api-new
+```
 
 # step-9:Maven Install
 ```bash
