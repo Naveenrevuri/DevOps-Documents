@@ -44,8 +44,8 @@ git --version
 ```
 # step-8:Git Clone
 ```bash
-git clone https://github.com/Naveenrevuri/plans-api.git
-cd plans-api
+git clone https://github.com/Naveenrevuri/plans-Api.git
+cd plans-Api
 ```
 # step-9:Maven Install
 ```bash
