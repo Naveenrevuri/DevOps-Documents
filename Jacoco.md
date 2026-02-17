@@ -37,7 +37,7 @@
     </plugins>
 </build>
 ```
-#2️⃣ Run Unit Test
+#2️⃣ Run Unit Test(Maven Build)
 ```bash
 clean verify
 ```
