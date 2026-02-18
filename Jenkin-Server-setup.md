@@ -35,11 +35,11 @@ sudo systemctl status jenkins
 http://public-ip:8080/
 ```
 
-# Step-7 : Copy jenkins admin pwd
+ ## Step-7 : Copy jenkins admin pwd ##
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
-# Step-8 : Create Admin Account & Install Required Plugins in Jenkins
+## Step-8 : Create Admin Account & Install Required Plugins in Jenkins ##
 
 ## Step-9 : Configure Maven as Global Tool in Jenkins ##
 1) Manage Jenkins -> Tools -> Maven Installation -> Add maven <br/>
