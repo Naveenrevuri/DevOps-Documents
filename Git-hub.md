@@ -1,5 +1,5 @@
 # Step 1: Create Git-hub account
- GitHub ki login avvu (www.github.com)
+## GitHub ki login avvu (www.github.com)
  1)Create New Repository
   . Repository name: eg. my-demo-project
   . Description: optional
